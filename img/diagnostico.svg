@@ -4,18 +4,18 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
-	.st1{display:inline;fill:#FFFFFF;}
-	.st2{display:inline;fill:none;stroke:#4C5159;stroke-width:2;stroke-miterlimit:10;}
+	.st1{display:inline;fill:#74C7D1;}
+	.st2{display:inline;fill:none;stroke:#74C7D1;stroke-width:2;stroke-miterlimit:10;}
 	.st3{display:inline;}
-	.st4{fill:none;stroke:#4C5159;stroke-width:2;stroke-miterlimit:10;}
-	.st5{display:inline;fill:none;stroke:#4C5159;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
-	.st6{fill:none;stroke:#4C5159;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
-	.st7{fill:#4C5159;}
+	.st4{fill:none;stroke:#74C7D1;stroke-width:2;stroke-miterlimit:10;}
+	.st5{display:inline;fill:none;stroke:#74C7D1;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
+	.st6{fill:none;stroke:#74C7D1;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
+	.st7{fill:#74C7D1;}
 	.st8{font-family:'Montserrat-Bold';}
 	.st9{font-size:7px;}
-	.st10{display:inline;fill:#74E2F0;}
-	.st11{display:inline;fill:#FBDA73;}
-	.st12{display:inline;fill:#F08E70;}
+	.st10{display:inline;fill:#74C7D1;}
+	.st11{display:inline;fill:#74C7D1;}
+	.st12{display:inline;fill:#74C7D1;}
 </style>
 <g id="bg" class="st0">
 	<rect id="XMLID_119_" x="-218" y="-268.2" class="st1" width="500" height="600.3"/>
