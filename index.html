@@ -30,7 +30,7 @@
     <!-- Topbar Start -->
     <div id="topbar-container"></div>
     <script>
-        fetch('./complementos/topbar.html')
+        fetch('./componentes/topbar.html')
             .then(response => response.text())
             .then(data => document.getElementById('topbar-container').innerHTML = data);
     </script>
@@ -40,7 +40,7 @@
     <!-- Navbar Start -->
     <div id="navbar-container"></div>
     <script>
-        fetch('./complementos/navbar.html')
+        fetch('./componentes/navbar.html')
             .then(response => response.text())
             .then(data => document.getElementById('navbar-container').innerHTML = data);
     </script>
@@ -105,14 +105,6 @@
                                 una impresión inicial y alertas tempranas sobre tu estado emocional. Descubre una visión
                                 clara de tu bienestar emocional y accede a recomendaciones personalizadas para mejorar
                                 tu calidad de vida</p>
-                            <div class="row mb-4">
-                                <div class="col-6">
-                                    <img class="img-fluid" src="img/puente.jpg" alt="">
-                                </div>
-                                <div class="col-6">
-                                    <img class="img-fluid" src="img/flores.jpg" alt="">
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -158,7 +150,7 @@
     <div id="footer-container"></div> 
 
     <script>
-        fetch('./complementos/footer.html')
+        fetch('./componentes/footer.html')
             .then(response => response.text())
             .then(data => document.getElementById('footer-container').innerHTML = data);
     </script>

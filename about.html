@@ -1,462 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Appyudame - Nosotros</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Free HTML Templates" name="keywords" />
-    <meta content="Free HTML Templates" name="description" />
 
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+<head>
+  <meta charset="utf-8" />
+  <title>Appyudame - Nosotros</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Free HTML Templates" name="keywords" />
+  <meta content="Free HTML Templates" name="description" />
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
 
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link
-      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
-      rel="stylesheet"
-    />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
-  <body>
-    <!-- Topbar Start -->
-    <div id="topbar-container"></div>
-    <script>
-      fetch("./complementos/topbar.html")
-        .then((response) => response.text())
-        .then(
-          (data) =>
-            (document.getElementById("topbar-container").innerHTML = data)
-        );
-    </script>
-    <!-- Topbar End -->
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
 
-    <!-- Navbar Start -->
-    <div id="navbar-container"></div>
-    <script>
-      fetch("./complementos/navbar.html")
-        .then((response) => response.text())
-        .then(
-          (data) =>
-            (document.getElementById("navbar-container").innerHTML = data)
-        );
-    </script>
-    <!-- Navbar End -->
+<body>
+  <!-- Topbar Start -->
+  <div id="topbar-container"></div>
+  <script>
+    fetch("./componentes/topbar.html")
+      .then((response) => response.text())
+      .then(
+        (data) =>
+          (document.getElementById("topbar-container").innerHTML = data)
+      );
+  </script>
+  <!-- Topbar End -->
 
-    <!-- Header Start -->
-    <div class="container-fluid page-header">
-      <div class="container">
-        <div
-          class="d-flex flex-column align-items-center justify-content-center"
-          style="min-height: 400px"
-        >
-          <h3 class="display-4 text-white text-uppercase">
-            Acerca de nosotros...
-          </h3>
-          <div class="d-inline-flex text-white">
-            <p class="m-0 text-uppercase">
-              <a class="text-white" href="">Inicio</a>
+  <!-- Navbar Start -->
+  <div id="navbar-container"></div>
+  <script>
+    fetch("./componentes/navbar.html")
+      .then((response) => response.text())
+      .then(
+        (data) =>
+          (document.getElementById("navbar-container").innerHTML = data)
+      );
+  </script>
+  <!-- Navbar End -->
+
+  <!-- Header Start -->
+  <div class="container-fluid page-header">
+    <div class="container">
+      <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+        <h3 class="display-4 text-white text-uppercase">
+          Acerca de nosotros...
+        </h3>
+        <div class="d-inline-flex text-white">
+          <p class="m-0 text-uppercase">
+            <a class="text-white" href="">Inicio</a>
+          </p>
+          <i class="fa fa-angle-double-right pt-1 px-3"></i>
+          <p class="m-0 text-uppercase">Nosotros</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header End -->
+
+  <!-- About Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-6" style="min-height: 500px">
+          <div class="position-relative h-100">
+            <img class="position-absolute w-100 h-100 rounded" src="img/about.jpg" style="object-fit: cover" />
+          </div>
+        </div>
+        <div class="col-lg-6 pt-5 pb-lg-5">
+          <div class="about-text my-gradient p-4 p-lg-5 my-lg-5">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px">
+              ¿Quienes Somos?
+            </h4>
+            <p>
+              Appyudame es una plataforma digital de salud mental que conecta
+              a individuos, empresas y comunidades con herramientas
+              personalizadas, accesibles y confiables para el cuidado de su
+              bienestar emocional. Nacimos con el propósito de democratizar y
+              desmitificar la salud mental, brindando a nuestros usuarios una
+              evaluación inicial de su estado emocional mediante alertas
+              tempranas y recomendaciones prácticas. Nuestro compromiso es
+              llegar a personas de todos los estratos sociales, ofreciendo una
+              vía de acceso fácil a servicios psicológicos y a recursos que
+              fortalecen el bienestar emocional en entornos personales,
+              familiares y laborales. En Appyudame, creemos que cuidar la
+              salud mental debe ser una experiencia accesible y transformadora
+              para todos."
             </p>
-            <i class="fa fa-angle-double-right pt-1 px-3"></i>
-            <p class="m-0 text-uppercase">Nosotros</p>
           </div>
         </div>
       </div>
     </div>
-    <!-- Header End -->
+  </div>
+  <!-- About End -->
 
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-      <div class="container pt-5">
-        <div class="row">
-          <div class="col-lg-6" style="min-height: 500px">
-            <div class="position-relative h-100">
-              <img
-                class="position-absolute w-100 h-100 rounded"
-                src="img/about.jpg"
-                style="object-fit: cover"
-              />
+  <!-- MyV Start -->
+  <div class="container d-flex justify-content-center">
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <div class="tarjeta w-auto">
+          <div class="tarjeta-vision">
+            <h4 class="text-white text-uppercase" style="letter-spacing: 5px">Misión</h4>
+          </div>
+          <p>Nuestra misión es desmitificar los conceptos erróneos que existen en la sociedad sobre la salud mental y
+            democratizar el acceso a servicios de salud mental eficientes, humanos y efectivos en toda Latinoamérica.
+            Nos comprometemos a brindar apoyo en salud mental y educación emocional para reducir el estigma asociado a
+            la terapia, ofreciendo a cada persona y organización los recursos necesarios para impulsar su bienestar
+            emocional y su desarrollo personal y profesional.</p>
+        </div>
+      </div>
+      <div class="col d-flex justify-content-center">
+        <div class="tarjeta w-auto">
+          <div class="tarjeta-vision bg-primary">
+            <h4 class="text-white text-uppercase" style="letter-spacing: 5px">Visión</h4>
+          </div>
+          <p>Visionamos una sociedad en la que cada individuo tenga el poder de gestionar su salud mental con recursos
+            accesibles e ilimitados, donde cuidar la salud mental no sea un estigma, sino un derecho y una práctica
+            común para todos. Imaginamos un mundo donde, desde las comunidades más vulnerables hasta los líderes con
+            mayores recursos, cada persona pueda contar con un terapeuta y con herramientas emocionales que fortalezcan
+            su bienestar. Nuestra meta es lograr que el cuidado de la salud mental sea un proceso accesible, humano y
+            transformador, al alcance de todos en cualquier momento y lugar.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MyV End -->
+
+  <!-- Team Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h4 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Nuestro Equipo
+        </h4>
+        <p>Contamos con un equipo de psicólogos clínicos que validan el prediagnóstico, expertos en tecnología, y un
+          grupo de psicólogas organizacionales que capacitan a empresas con experiencias transformadoras. Cada miembro
+          aporta experiencia y compromiso para ayudar a nuestros usuarios a encontrar apoyo emocional y herramientas de
+          crecimiento personal." </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="./img/Equipo/Yesenia.png" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4 team-desc">
+              <h5 class="text-truncate">YESENIA PÉREZ</h5>
+              <p class="m-0">CEO de Valerosas tech y Appyudame</p>
             </div>
           </div>
-          <div class="col-lg-6 pt-5 pb-lg-5">
-            <div class="about-text my-gradient p-4 p-lg-5 my-lg-5">
-              <h4
-                class="text-primary text-uppercase"
-                style="letter-spacing: 5px"
-              >
-                ¿Quienes Somos?
-              </h4>
-              <p>
-                Appyudame es una plataforma digital de salud mental que conecta
-                a individuos, empresas y comunidades con herramientas
-                personalizadas, accesibles y confiables para el cuidado de su
-                bienestar emocional. Nacimos con el propósito de democratizar y
-                desmitificar la salud mental, brindando a nuestros usuarios una
-                evaluación inicial de su estado emocional mediante alertas
-                tempranas y recomendaciones prácticas. Nuestro compromiso es
-                llegar a personas de todos los estratos sociales, ofreciendo una
-                vía de acceso fácil a servicios psicológicos y a recursos que
-                fortalecen el bienestar emocional en entornos personales,
-                familiares y laborales. En Appyudame, creemos que cuidar la
-                salud mental debe ser una experiencia accesible y transformadora
-                para todos."
-              </p>
-              <div class="row mb-4">
-                <div class="col-6">
-                  <img class="img-fluid" src="img/about-1.jpg" alt="" />
-                </div>
-                <div class="col-6">
-                  <img class="img-fluid" src="img/about-2.jpg" alt="" />
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="./img/Equipo/Martha.png" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
               </div>
+            </div>
+            <div class="text-center py-4 team-desc">
+              <h5 class="text-truncate">MARTHA CONTRERAS</h5>
+              <p class="m-0">CHRO de Valerosas</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="./img/Equipo/Silvana.png" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4 team-desc">
+              <h5 class="text-truncate">SILVANA GONZÁLEZ</h5>
+              <p class="m-0">Gerente General en Gateway IT</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="./img/Equipo/Patricia.png" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4 team-desc">
+              <h5 class="text-truncate">PATRICIA PÉREZ</h5>
+              <p class="m-0">Psicóloga, especialista en Gerencia de Recursos Humanos</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="./img/Equipo/Elkin.png" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4 team-desc">
+              <h5 class="text-truncate">ELKIN QUIÑONEZ</h5>
+              <p class="m-0">CEO en Gateway IT, Fundador de CIDETIC</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="./img/Equipo/Snheideet.png" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4 team-desc">
+              <h5 class="text-truncate">SNHEIDEET SMALBACH</h5>
+              <p class="m-0">CTO de Valerosas Tech</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="./img/Equipo/Kavir.png" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4 team-desc">
+              <h5 class="text-truncate">KAVIR CONEO</h5>
+              <p class="m-0">COO de Valerosas y Appyudame</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- About End -->
+  </div>
+  </div>
+  <!-- Team End -->
 
-    <!-- MyV Carousel Start -->
-    <div
-      class="container-fluid"
-      style="
-        margin: 90px 0;
-        background-image: url('./img/MyV.jpg');
-        background-size: cover;
-        background-position: center;
-        min-height: 450px;
-      "
-    >
-      <div class="container">
-        <!-- Carousel -->
-        <div
-          id="missionVisionCarousel"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <!-- Misión -->
-            <div class="carousel-item active">
-              <div class="row justify-content-center">
-                <div class="col-lg-6 mb-4">
-                  <div class="about-text bg-transparent p-4 p-lg-5">
-                    <h4
-                      class="text-primary text-uppercase"
-                      style="letter-spacing: 5px"
-                    >
-                      Misión
-                    </h4>
-                    <p class="text-white bg-op20 p-3 rounded">
-                      Nuestra misión es desmitificar los conceptos erróneos que
-                      existen en la sociedad sobre la salud mental y
-                      democratizar el acceso a servicios de salud mental
-                      eficientes, humanos y efectivos en toda Latinoamérica. Nos
-                      comprometemos a brindar apoyo en salud mental y educación
-                      emocional para reducir el estigma asociado a la terapia,
-                      ofreciendo a cada persona y organización los recursos
-                      necesarios para impulsar su bienestar emocional y su
-                      desarrollo personal y profesional.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <!-- Footer Start -->
+  <div id="footer-container"></div>
 
-            <!-- Visión -->
-            <div class="carousel-item">
-              <div class="row align-items-center justify-content-center">
-                <div class="col-lg-6 mb-4">
-                  <div class="about-text bg-transparent p-4 p-lg-5">
-                    <h4
-                      class="text-primary text-uppercase"
-                      style="letter-spacing: 5px"
-                    >
-                      Visión
-                    </h4>
-                    <p class="text-white bg-op20 p-3 rounded">
-                      Visionamos una sociedad en la que cada individuo tenga el
-                      poder de gestionar su salud mental con recursos accesibles
-                      e ilimitados, donde cuidar la salud mental no sea un
-                      estigma, sino un derecho y una práctica común para todos.
-                      Imaginamos un mundo donde, desde las comunidades más
-                      vulnerables hasta los líderes con mayores recursos, cada
-                      persona pueda contar con un terapeuta y con herramientas
-                      emocionales que fortalezcan su bienestar. Nuestra meta es
-                      lograr que el cuidado de la salud mental sea un proceso
-                      accesible, humano y transformador, al alcance de todos en
-                      cualquier momento y lugar.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Controles del carousel -->
-          <a
-            class="carousel-control-prev"
-            href="#missionVisionCarousel"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#missionVisionCarousel"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Siguiente</span>
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- MyV Carousel End -->
+  <script>
+    fetch("./componentes/footer.html")
+      .then((response) => response.text())
+      .then(
+        (data) =>
+          (document.getElementById("footer-container").innerHTML = data)
+      );
+  </script>
+  <!-- Footer End -->
 
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
-      <div class="container pt-5 pb-3">
-        <div class="text-center mb-3 pb-3">
-          <h4 class="text-primary text-uppercase" style="letter-spacing: 5px">
-            Nuestro Equipo
-          </h4>
-          <p>Contamos con un equipo de psicólogos clínicos que validan el prediagnóstico, expertos en tecnología, y un grupo de psicólogas organizacionales que capacitan a empresas con experiencias transformadoras. Cada miembro aporta experiencia y compromiso para ayudar a nuestros usuarios a encontrar apoyo emocional y herramientas de crecimiento personal." </p>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-            <div class="team-item bg-white mb-4">
-              <div class="team-img position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="./img/Equipo/Yesenia.png" alt="" />
-                <div class="team-social">
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div>
-              <div class="text-center py-4 team-desc">
-                <h5 class="text-truncate">YESENIA PÉREZ</h5>
-                <p class="m-0">CEO de Valerosas tech y Appyudame</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-            <div class="team-item bg-white mb-4">
-              <div class="team-img position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="./img/Equipo/Martha.png" alt="" />
-                <div class="team-social">
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div>
-              <div class="text-center py-4 team-desc">
-                <h5 class="text-truncate">MARTHA CONTRERAS</h5>
-                <p class="m-0">CHRO de Valerosas</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-            <div class="team-item bg-white mb-4">
-              <div class="team-img position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="./img/Equipo/Silvana.png" alt="" />
-                <div class="team-social">
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div>
-              <div class="text-center py-4 team-desc">
-                <h5 class="text-truncate">SILVANA GONZÁLEZ</h5>
-                <p class="m-0">Gerente General en Gateway IT</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-            <div class="team-item bg-white mb-4">
-              <div class="team-img position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="./img/Equipo/Patricia.png" alt="" />
-                <div class="team-social">
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-twitter"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-facebook-f"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-instagram"></i
-                  ></a>
-                  <a class="btn btn-outline-primary btn-square" href=""
-                    ><i class="fab fa-linkedin-in"></i
-                  ></a>
-                </div>
-              </div>
-              <div class="text-center py-4 team-desc">
-                <h5 class="text-truncate">PATRICIA PÉREZ</h5>
-                <p class="m-0">Psicóloga, especialista en Gerencia de Recursos Humanos</p>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-              <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                  <img class="img-fluid w-100" src="./img/Equipo/Elkin.png" alt="" />
-                  <div class="team-social">
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="text-center py-4 team-desc">
-                  <h5 class="text-truncate">ELKIN QUIÑONEZ</h5>
-                  <p class="m-0">CEO en Gateway IT, Fundador de CIDETIC</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-              <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                  <img class="img-fluid w-100" src="./img/Equipo/Snheideet.png" alt="" />
-                  <div class="team-social">
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="text-center py-4 team-desc">
-                  <h5 class="text-truncate">SNHEIDEET SMALBACH</h5>
-                  <p class="m-0">CTO de Valerosas Tech</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-              <div class="team-item bg-white mb-4">
-                <div class="team-img position-relative overflow-hidden">
-                  <img class="img-fluid w-100" src="./img/Equipo/Kavir.png" alt="" />
-                  <div class="team-social">
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-instagram"></i
-                    ></a>
-                    <a class="btn btn-outline-primary btn-square" href=""
-                      ><i class="fab fa-linkedin-in"></i
-                    ></a>
-                  </div>
-                </div>
-                <div class="text-center py-4 team-desc">
-                  <h5 class="text-truncate">KAVIR CONEO</h5>
-                  <p class="m-0">COO de Valerosas y Appyudame</p>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-      </div>
-    </div>
-    <!-- Team End -->
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-    <!-- Footer Start -->
-    <div id="footer-container"></div>
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <script>
-      fetch("./complementos/footer.html")
-        .then((response) => response.text())
-        .then(
-          (data) =>
-            (document.getElementById("footer-container").innerHTML = data)
-        );
-    </script>
-    <!-- Footer End -->
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
-      ><i class="fa fa-angle-double-up"></i
-    ></a>
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
 </html>
