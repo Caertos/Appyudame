@@ -10223,12 +10223,12 @@ h6,
 
 .seleccionado{
   outline: none;
-  border: 2px solid #949194;
+  border: 2px solid #e8dfe8;
   border-radius: 5px;
 }
 
 .seleccionado:focus{
     outline: none;
-    border: 2px solid #616061;
+    border: 2px solid #a8a0a8;
     border-radius: 5px;
 }
