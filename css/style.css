@@ -10220,3 +10220,15 @@ h6,
   left: 0;
   border-radius: 8px 8px 0px 0px;
 }
+
+.seleccionado{
+  outline: none;
+  border: 2px solid #949194;
+  border-radius: 5px;
+}
+
+.seleccionado:focus{
+    outline: none;
+    border: 2px solid #616061;
+    border-radius: 5px;
+}
