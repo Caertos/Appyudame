@@ -9772,3 +9772,12 @@ h6,
 .my-gradient {
   background: linear-gradient(to left, white 85%, rgba(255,255,255,0));
 }
+
+.servicios {
+  filter: invert(33%) sepia(93%) saturate(1913%) hue-rotate(171deg) brightness(102%) contrast(105%);
+  transition: filter 0.5s ease-in-out;
+}
+
+.service-item:hover .servicios {
+  filter: invert(100%) brightness(150%) contrast(100%);
+}
