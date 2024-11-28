@@ -10181,11 +10181,11 @@ h6,
 }
 
 .my-gradient {
-  background: linear-gradient(to left, white 85%, rgba(255, 255, 255, 0));
+  background: linear-gradient(to left, white 90%, rgba(255, 255, 255, 0));
 }
 
 .my-gradient2 {
-  background: linear-gradient(to right, white 85%, rgba(255, 255, 255, 0));
+  background: linear-gradient(to right, white 90%, rgba(255, 255, 255, 0));
 }
 
 .servicios {
