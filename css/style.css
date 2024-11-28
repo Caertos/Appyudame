@@ -10184,6 +10184,10 @@ h6,
   background: linear-gradient(to left, white 85%, rgba(255, 255, 255, 0));
 }
 
+.my-gradient2 {
+  background: linear-gradient(to right, white 85%, rgba(255, 255, 255, 0));
+}
+
 .servicios {
   transition: filter 0.5s ease-in-out;
 }
@@ -10221,14 +10225,25 @@ h6,
   border-radius: 8px 8px 0px 0px;
 }
 
-.seleccionado{
+.seleccionado {
   outline: none;
   border: 2px solid #e8dfe8;
   border-radius: 5px;
 }
 
-.seleccionado:focus{
-    outline: none;
-    border: 2px solid #a8a0a8;
-    border-radius: 5px;
+.seleccionado:focus {
+  outline: none;
+  border: 2px solid #a8a0a8;
+  border-radius: 5px;
+}
+
+.der {
+  left: 5rem;
+  z-index: 3;
+}
+
+@media (max-width: 990px) {
+  .der{
+    left: 0px;
+  }
 }
