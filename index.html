@@ -1,200 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Appyudame</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Free HTML Templates" name="keywords" />
+    <meta content="Free HTML Templates" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- Topbar Start -->
     <div id="topbar-container"></div>
     <script>
-        fetch('./componentes/topbar.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('topbar-container').innerHTML = data);
+      fetch("./componentes/topbar.html")
+        .then((response) => response.text())
+        .then(
+          (data) =>
+            (document.getElementById("topbar-container").innerHTML = data)
+        );
     </script>
     <!-- Topbar End -->
-
 
     <!-- Navbar Start -->
     <div id="navbar-container"></div>
     <script>
-        fetch('./componentes/navbar.html')
-            .then(response => response.text())
-            .then(data => document.getElementById('navbar-container').innerHTML = data);
+      fetch("./componentes/navbar.html")
+        .then((response) => response.text())
+        .then(
+          (data) =>
+            (document.getElementById("navbar-container").innerHTML = data)
+        );
     </script>
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0">
-        <div id="header-carousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <!-- Video con estilos para ajustar tamaño completo -->
-                    <video muted autoplay loop class="w-100" style="object-fit: cover; height: 100vh;">
-                        <source src="./img/olas.mp4" type="video/mp4">
-                        Tu navegador no soporta la etiqueta de video.
-                    </video>
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px; background: rgba(0, 0, 0, 0);">
-                            <!-- Texto sobre el video -->
-                            <p class="text-white">Desmitificamos la salud mental ofreciéndote la oportunidad de realizar
-                                un análisis gratuito y privado de tu estado emocional. Nuestro propósito es derribar las
-                                barreras del estigma, para que puedas cuidar de tu bienestar emocional de manera
-                                accesible y segura.</p>
-                        </div>
-                    </div>
-                </div>
+      <div id="header-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- Video con estilos para ajustar tamaño completo -->
+            <video
+              muted
+              autoplay
+              loop
+              class="w-100"
+              style="object-fit: cover; height: 100vh"
+            >
+              <source src="./img/olas.mp4" type="video/mp4" />
+              Tu navegador no soporta la etiqueta de video.
+            </video>
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div
+                class="p-3"
+                style="max-width: 900px; background: rgba(0, 0, 0, 0)"
+              >
+                <!-- Texto sobre el video -->
+                <p class="text-white">
+                  Desmitificamos la salud mental ofreciéndote la oportunidad de
+                  realizar un análisis gratuito y privado de tu estado
+                  emocional. Nuestro propósito es derribar las barreras del
+                  estigma, para que puedas cuidar de tu bienestar emocional de
+                  manera accesible y segura.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Carousel End -->
 
-
     <!-- Buscar -->
     <div class="container-fluid booking mt-5 pb-5">
-        <div class="container pb-5">
-            <div class="bg-light p-4 shadow" style="border-radius: 5px;">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-10 h-auto d-flex align-items-center">
-                        <input type="text" placeholder="Buscar..." class="w-100 col-11 seleccionado">
-                        <a href="#" class="mx-1 col btn-primary text-center rounded"><img src="./img/lupa.svg"
-                                style="max-height: 30px;" /></a>
-                    </div>
-                </div>
+      <div class="container pb-5">
+        <div class="bg-light p-4 shadow" style="border-radius: 5px">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-10 h-auto d-flex align-items-center">
+              <input
+                type="text"
+                placeholder="Buscar..."
+                class="w-100 col-11 seleccionado"
+              />
+              <a href="#" class="mx-1 col btn-primary text-center rounded"
+                ><img src="./img/lupa.svg" style="max-height: 30px"
+              /></a>
             </div>
+          </div>
         </div>
-        <!-- Buscar -->
+      </div>
+      <!-- Buscar -->
 
-
-        <!-- Appyudame info Start -->
-        <div class="container-fluid py-5">
-            <div class="container pt-5">
-                <div class="row">
-                    <div class="col-lg-6" style="min-height: 500px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100 rounded" src="img/plenitud.jpg"
-                                style="object-fit: cover" />
-                        </div>
-                    </div>
-                    <div class="col-lg-6 pt-5 pb-lg-5">
-                        <div class="about-text my-gradient p-4 p-lg-5 my-lg-5 ">
-                            <h5 class="text-primary text-uppercase" style="letter-spacing: 5px;">¿Te has preguntado cómo
-                                está tu salud mental?</h5>
-                            <p>Appyudame es una plataforma de salud mental que, a través de test psicológicos, te ofrece
-                                una impresión inicial y alertas tempranas sobre tu estado emocional. Descubre una visión
-                                clara de tu bienestar emocional y accede a recomendaciones personalizadas para mejorar
-                                tu calidad de vida</p>
-                        </div>
-                        <div class="row">
-                            <div class="col" style="min-height: 10vh;"></div>
-                        </div>
-                    </div>
-                </div>
+      <!-- Appyudame info Start -->
+      <div class="container-fluid py-5">
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-lg-6" style="min-height: 500px">
+              <div class="position-relative h-100">
+                <img
+                  class="position-absolute w-100 h-100 rounded"
+                  src="img/plenitud.jpg"
+                  style="object-fit: cover"
+                />
+              </div>
             </div>
-        </div>
-        <!-- Appyudame info End -->
-
-        <!-- Service Start -->
-        <div class="container-fluid py-5">
-            <div class="container pt-5 pb-3">
-                <div class="text-center mb-3 pb-3">
-                    <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Explora tu bienestar emocional
-                    </h4>
-                    <h1>Servicios</h1>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="service-item bg-white text-center mb-2 py-5 px-4" style="min-height: 350px;">
-                            <i class="mx-auto mb-4"><img src="img/diagnostico.svg" class="w-50 servicios" /></i>
-                            <h5 class="mb-2">Prediagnóstico</h5>
-                            <p class="m-0">Inicia tu Prediagnóstico Gratuito" y "Descubre Cómo Appyudame Puede Ayudarte
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="service-item bg-white text-center mb-2 py-5 px-4" style="min-height: 350px;">
-                            <i class="mx-auto mb-4"><img src="img/terapia.svg" class="w-50 servicios" /></i>
-                            <h5 class="mb-2">Planes de Consulta</h5>
-                            <p class="m-0">Consulta individual desde $60,000 COP por sesión, o un plan mensual de
-                                $150,000 COP que incluye cuatro terapias</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-4">
-                        <div class="service-item bg-white text-center mb-2 py-5 px-4" style="min-height: 350px;">
-                            <i class="mx-auto mb-4"><img src="img/emocion.svg" class="w-50 servicios" /></i>
-                            <h5 class="mb-2">Gestión Emocional</h5>
-                            <p class="m-0">Cursos de gestión emocional desde $20,000 COP</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-6 pt-5 pb-lg-5">
+              <div class="about-text my-gradient p-4 p-lg-5 my-lg-5">
+                <h5
+                  class="text-primary text-uppercase"
+                  style="letter-spacing: 5px"
+                >
+                  ¿Te has preguntado cómo está tu salud mental?
+                </h5>
+                <p>
+                  Appyudame es una plataforma de salud mental que, a través de
+                  test psicológicos, te ofrece una impresión inicial y alertas
+                  tempranas sobre tu estado emocional. Descubre una visión clara
+                  de tu bienestar emocional y accede a recomendaciones
+                  personalizadas para mejorar tu calidad de vida
+                </p>
+              </div>
+              <div class="row">
+                <div class="col" style="min-height: 10vh"></div>
+              </div>
             </div>
+          </div>
         </div>
-        <!-- Service End -->
+      </div>
+      <!-- Appyudame info End -->
 
-        <!-- Testimonial Start -->
-        <div id="testimonial-container"></div>
+      <!-- Service Start -->
+      <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+          <div class="text-center mb-3 pb-3">
+            <h4 class="text-primary text-uppercase" style="letter-spacing: 5px">
+              Explora tu bienestar emocional
+            </h4>
+            <h1>Servicios</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div
+                class="service-item bg-white text-center mb-2 py-5 px-4"
+                style="min-height: 350px"
+              >
+                <i class="mx-auto mb-4"
+                  ><img src="img/diagnostico.svg" class="w-50 servicios"
+                /></i>
+                <h5 class="mb-2">Prediagnóstico</h5>
+                <p class="m-0">
+                  Inicia tu Prediagnóstico Gratuito" y "Descubre Cómo Appyudame
+                  Puede Ayudarte
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div
+                class="service-item bg-white text-center mb-2 py-5 px-4"
+                style="min-height: 350px"
+              >
+                <i class="mx-auto mb-4"
+                  ><img src="img/terapia.svg" class="w-50 servicios"
+                /></i>
+                <h5 class="mb-2">Planes de Consulta</h5>
+                <p class="m-0">
+                  Consulta individual desde $60,000 COP por sesión, o un plan
+                  mensual de $150,000 COP que incluye cuatro terapias
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div
+                class="service-item bg-white text-center mb-2 py-5 px-4"
+                style="min-height: 350px"
+              >
+                <i class="mx-auto mb-4"
+                  ><img src="img/emocion.svg" class="w-50 servicios"
+                /></i>
+                <h5 class="mb-2">Gestión Emocional</h5>
+                <p class="m-0">Cursos de gestión emocional desde $20,000 COP</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
 
-        <script>
-            fetch('./componentes/testimonial.html')
-                .then(response => response.text())
-                .then(data => document.getElementById('testimonial-container').innerHTML = data);
-        </script>
-        <!-- Testimonial End -->
+    <!-- Testimonial Start -->
+    <div id="testimonial-container"></div>
 
-        <!-- Footer Start -->
-        <div id="footer-container"></div>
+    <script>
+      fetch("./componentes/testimonial.html")
+        .then((response) => response.text())
+        .then(
+          (data) =>
+            (document.getElementById("testimonial-container").innerHTML = data)
+        );
+    </script>
+    <!-- Testimonial End -->
 
-        <script>
-            fetch('./componentes/footer.html')
-                .then(response => response.text())
-                .then(data => document.getElementById('footer-container').innerHTML = data);
-        </script>
-        <!-- Footer End -->
+    <!-- Footer Start -->
+    <div id="footer-container"></div>
 
+    <script>
+      fetch("./componentes/footer.html")
+        .then((response) => response.text())
+        .then(
+          (data) =>
+            (document.getElementById("footer-container").innerHTML = data)
+        );
+    </script>
+    <!-- Footer End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
 
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/tempusdominus/js/moment.min.js"></script>
-        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-</body>
-
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
 </html>
