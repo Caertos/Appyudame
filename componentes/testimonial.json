@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Nombre Cliente 1",
+      "image": "./img/User1.png",
+      "testimonial": "Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam."
+    },
+    {
+      "name": "Nombre Cliente 2",
+      "image": "./img/User2.png",
+      "testimonial": "Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam."
+    },
+    {
+      "name": "Nombre Cliente 3",
+      "image": "./img/User3.png",
+      "testimonial": "Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam."
+    },
+    {
+      "name": "Nombre Cliente 4",
+      "image": "./img/User4.png",
+      "testimonial": "Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam."
+    }
+  ]
+  

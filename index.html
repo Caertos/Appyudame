@@ -217,38 +217,7 @@
 
     <!-- Testimonial Start -->
     <div id="testimonial-container"></div>
-
-    <script>
-      fetch("./componentes/testimonial.html")
-        .then((response) => response.text())
-        .then((data) => {
-          // Insertar el contenido cargado en el contenedor
-          document.getElementById("testimonial-container").innerHTML = data;
-
-          $(".testimonial-carousel").owlCarousel({
-            autoplay: true,
-            smartSpeed: 1500,
-            margin: 30,
-            dots: true,
-            loop: true,
-            center: true,
-            responsive: {
-              0: {
-                items: 1,
-              },
-              576: {
-                items: 1,
-              },
-              768: {
-                items: 2,
-              },
-              992: {
-                items: 3,
-              },
-            },
-          });
-        });
-    </script>
+    <script type="module" src="./componentes/testimonial.js"></script>
 
     <!-- Footer Start -->
     <div id="footer-container"></div>

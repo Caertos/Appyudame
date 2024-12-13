@@ -10141,6 +10141,12 @@ h6,
   box-shadow: 0 0 30px #cccccc;
 }
 
+.testimonial-carousel img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .blog-item {
   transition: 0.5s;
 }
