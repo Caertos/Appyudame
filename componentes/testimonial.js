@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         testimonials.forEach((testimonial) => {
           const containerCard = document.createElement("div");
-          containerCard.className = "text-center pb-4";
+          containerCard.className = "text-center pb-4 px-3";
 
           const img = document.createElement("img");
           img.src = testimonial.image;
